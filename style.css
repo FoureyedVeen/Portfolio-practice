@@ -1,0 +1,30 @@
+.rectangle1 {
+    width: 2012px;
+    height: 1352px;
+    /* background-image: url(/Rectangle.png); */
+    left: 0px;
+    top: 0px; 
+    background-color: #043E51;
+    position: fixed;
+    align-items: center;
+    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 721px;
+    padding-right: 720px;
+    /* padding-top: 59px; */
+    background-color: red;
+    align-content: center;
+    height: 22px;
+    width: 479px;
+    
+
+}
+li {
+    padding-right: 2rem;
+    
+}
