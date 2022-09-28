@@ -1,31 +1,50 @@
 .rectangle1 {
-    width: 2012px;
-    height: 1352px;
+    width: 1920px;
+    height: 1114px;
     /* background-image: url(/Rectangle.png); */
     left: 0px;
     top: 0px; 
     background-color: #043E51;
-    position: fixed;
-    align-items: center;
-    
+    position: fixed; 
+    align-items: center;   
+}
+
+/* .box-1 {
+    padding-left: 375px;
+    padding-right: 375px;
+    padding-top: 55px;
+    background-color: aqua;
+    height: 1033px;
+} */
+
+.nav {
+    width: 479px;
+    padding-left: 500px;
+    padding-right: 721px;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-left: 721px;
-    padding-right: 720px;
+    /* padding-left: 721px;
+    padding-right: 720px; */
     /* padding-top: 59px; */
     background-color: red;
     align-content: center;
     height: 22px;
     width: 479px;
-    
 
 }
+
 li {
     padding-right: 2rem;
     padding-top: 0%;
     
+}
+
+.button1 {
+    padding-left: 1406px;
+    padding-right: 374px;
+
 }
