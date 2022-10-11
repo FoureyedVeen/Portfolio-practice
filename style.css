@@ -8,43 +8,36 @@
     position: fixed; 
     align-items: center;   
 }
-
-/* .box-1 {
-    padding-left: 375px;
-    padding-right: 375px;
-    padding-top: 55px;
+.header {
     background-color: aqua;
-    height: 1033px;
-} */
+}
 
 .nav {
-    width: 479px;
-    padding-left: 500px;
-    padding-right: 721px;
+    display: flex;
 }
 
 .nav-bar {
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    /* padding-left: 721px;
-    padding-right: 720px; */
-    /* padding-top: 59px; */
-    background-color: red;
-    align-content: center;
-    height: 22px;
-    width: 479px;
-
+    align-content: space-between;
+    /* margin-left: 400px; */
+    margin-left: 374px;
 }
 
 li {
-    padding-right: 2rem;
-    padding-top: 0%;
-    
+    padding-left: 2rem;
+
 }
-
 .button1 {
-    padding-left: 1406px;
-    padding-right: 374px;
-
+    margin-left: 800px; 
+    margin-right: 374px;
+    background-color: blue;
+    width: 140px;
+    height: 58px;
+    border-radius: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
